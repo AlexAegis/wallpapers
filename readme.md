@@ -1,7 +1,7 @@
 # wallpapers
 
 This is a dotmodule intended to use with
-[dot](https://github.com/alexaegis/dot)
+[pont](https://github.com/alexaegis/pont)
 and is also included in my
 [dotfiles](https://github.com/AlexAegis/dotfiles)
 
