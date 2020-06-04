@@ -1,0 +1,11 @@
+[Unit]
+Description=Wallpaper directiory watcher (Daemon Reloader)
+Documentation=man:systemd(1)
+Wants=notify-restart@%N.service
+
+[Service]
+EnvironmentFile=%E/environment.d/80-wallpaper.conf
+ExecStart=%E/systemd/restart_on_change_of_wallpapers.sh
+
+[Install]
+WantedBy=default.target
