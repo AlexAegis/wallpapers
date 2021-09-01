@@ -8,4 +8,4 @@ EnvironmentFile=%E/environment.d/80-wallpaper.conf
 ExecStart=%E/systemd/restart_on_change_of_wallpapers.sh
 
 [Install]
-WantedBy=default.target
+WantedBy=watcher.target
